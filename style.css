@@ -1,8 +1,12 @@
 html {
-   font-size: 14px;
-   min-height: 100vh;
-   margin-right: 30px;
-   margin-left: 30px;
+    font-size: 14px;
+    min-height: 100vh;
+    padding: 3rem;
+   /*  margin-right: 30px;
+   margin-left: 30px; */
+    background-color: var(---dark);
+    background-image: linear-gradient(to left, var(---dark), #333);
+    justify-content: space-between;
 }
 
 h1,
@@ -11,45 +15,48 @@ h3,
 h4,
 h5,
 h6 {
-   font-weight: bold
+    font-weight: bold
 }
 
 :root {
-   ---text: white;
-   ---visite: #BAB4E1;
-   ---hover: #645880;
-   ---dark: black;
+    ---text: white;
+    ---visite: #BAB4E1;
+    ---hover: #645880;
+    ---dark: black;
 }
 
 body {
-   background-color: #12131C;
-   color: var(---text);
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(---text);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 a {
-   color: whitesmoke
+    color: whitesmoke;
 }
 
 a.visited {
-   color: var(---visite)
+    color: var(---visite)
 }
 
 a.hover {
-   color: var(---hover);
+    color: var(---hover);
 }
 
 a.clicked {
-   color: crimson;
+    color: crimson;
 }
 
 #form {
-   font-family: 'Courier New', Courier;
+    font-family: 'Courier New', Courier;
+}
+
+th {
+    font-weight: bold;
 }
 
 #tab {
-   width: 100%;
-   border-color: var(---text);
-   background-color: #222;
-   font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    border-color: var(---text);
+    background-color: #222;
+    font-family: 'Courier New', Courier, monospace;
 }
