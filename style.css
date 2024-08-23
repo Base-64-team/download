@@ -7,6 +7,8 @@ html {
     background-color: var(---dark);
     background-image: linear-gradient(to left, var(---dark), #333);
     justify-content: space-between;
+    line-height: 1.5rem;
+    
 }
 
 h1,
@@ -15,7 +17,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-weight: bold
+    font-weight: bold;
+    padding: 4rem;
 }
 
 :root {
@@ -54,9 +57,19 @@ th {
     font-weight: bold;
 }
 
-#tab {
+.tab {
     width: 100%;
+    padding: 3rem;
     border-color: var(---text);
-    background-color: #222;
+    background-image: linear-gradient(to left, #222,#111);
     font-family: 'Courier New', Courier, monospace;
+    border-radius: 50px;
+}
+.mono {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 13px
+        
+}
+.ths{
+        background-color: black;
 }
